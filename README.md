@@ -1,4 +1,4 @@
-# UptimeStatus Pro
+# UptimeStatus Next
 
 一个基于 UptimeRobot API 的在线状态页面，本项目二改自 [yb/uptime-status](https://github.com/yb/uptime-status)。
 
