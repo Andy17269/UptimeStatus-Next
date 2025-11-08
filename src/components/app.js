@@ -23,7 +23,7 @@ function App() {
           ))}
         </div>
         <div id='footer'>
-          <p>&copy; 2025 <Link to='https://github.com/WenCenter/UptimeStatus-Next' text='Uptime Status Next' /></p>
+          <p>&copy; 2025 <Link to='https://github.com/WenCenter/UptimeStatus-Next' text='Uptime Status Next'/></p>
           <p>在 <Link to='https://github.com/WenCenter/UptimeStatus-Next' text='Github'/>↗️ 上查看此项目</p>
         </div>
       </div>
