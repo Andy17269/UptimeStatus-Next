@@ -7,12 +7,12 @@
 ## 先决条件
 
 - 您需要先到 [UptimeRobot](https://uptimerobot.com/ "UptimeRobot") 添加站点监控，并在 My Settings 页面获取 API Key
-- 您需要拥有一个网站空间，或已经免费注册Vercel
+- 您需要拥有一个网站空间（静态即可），或已经免费注册 Vercel
 
 ## 部署
 ### Vercel（推荐）
 
-- 在右上角Fork此存储库，然后在 Vercel 部署。完成后，你需要在Fork的存储库中编辑配置文件。
+- 在右上角 Fork 此存储库，然后在 Vercel 部署(在 Vercel 登录你的Github账户，选择你 Fork 的仓库并部署)。完成后，你需要在 Fork 的存储库中编辑配置文件。
 - 修改 `config.js` 文件：
    - `SiteName`: 要显示的网站名称
    - `ApiKeys`: 从 UptimeRobot 获取的 API Key，支持 Monitor-Specific API Keys 和 Read-Only API Key
@@ -40,7 +40,7 @@
 ```
 server {
   listen [::]:80;
-  server_name cors.status.org.cn;
+  server_name api.uptimerobot.com;
   location / {
     proxy_ssl_server_name on;
     proxy_pass https://api.uptimerobot.com/;
